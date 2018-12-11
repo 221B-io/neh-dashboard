@@ -1,0 +1,44 @@
+{
+  "name": "dashboard",
+  "version": "1.0.0",
+  "description": "A research activity visualization dashboard.",
+  "author": "221B",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
+    "precommit": "npm run lint"
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.0.0",
+    "bodybuilder": "^2.2.16",
+    "bootstrap-vue": "^2.0.0-rc.1",
+    "chart.js": "^2.7.1",
+    "cross-env": "^5.2.0",
+    "dollarinflation": "0.0.1",
+    "flag-icon-css": "^2.9.0",
+    "font-awesome": "^4.7.0",
+    "fs": "0.0.1-security",
+    "inflation-cpi": "0.0.1",
+    "nuxt": "^2.0.0",
+    "simple-line-icons": "^2.4.1",
+    "vue-chartjs": "^3.1.1"
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.2.1",
+    "eslint": "^5.0.1",
+    "eslint-config-prettier": "^3.1.0",
+    "eslint-loader": "^2.0.0",
+    "eslint-plugin-prettier": "2.6.2",
+    "eslint-plugin-vue": "^4.0.0",
+    "node-sass": "^4.7.2",
+    "nodemon": "^1.11.0",
+    "prettier": "1.14.3",
+    "pug": "^2.0.3",
+    "pug-plain-loader": "^1.0.0",
+    "sass-loader": "^6.0.6"
+  }
+}
