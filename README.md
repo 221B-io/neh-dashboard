@@ -1,34 +1,5 @@
 # NEH Dashboard
 
-## Starting ES and Kibana
-
-### Starting up ElasticSearch
-
-- `docker-compose up` in elasticsearch dir
-
-<!-- ### Starting up Kibana
-
-- `cd kibana-6.4.2`
-- `bin/kibana` -->
-
-## Uploading Data to ElasticSearch
-
-<!-- ### Bulk upload via CSV (using Logstash)
-
-- `cd logstash-6.4.2`
-- `bin/logstash -f logstash.conf` to load all the data in the csv folder
-
-### Bulk upload via JSON (using cURL)
-
-- `cd scripts/ingest`
-- `node generate-requests.js` -->
-
-<!-- ## Scraping Data from NEH
-
-- You shouldn't have to do this, the data should just be in this repository under `/json/by-year`. However, if you need to rescrape:
-- `cd scripts/scrape-neh && node scrape.js`
-- Bear in mind this will take a _very_ long time to complete, and should be left running overnight (or longer). -->
-
 ## What you need to run
 
 If you don't need to make any changes to the data that's been gathered, all you need to do make sure the elasticsearch docker image is up, and run the following command.
