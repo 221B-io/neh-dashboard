@@ -1,11 +1,5 @@
 # NEH Dashboard
 
-## What you need to run
-
-If you don't need to make any changes to the data that's been gathered, all you need to do make sure the elasticsearch docker image is up, and run the following command.
-
-- `cd scripts/ingest && node before-upload.js && curl -s -H "Content-Type: application/x-ndjson" -XPOST localhost:9200/_bulk --data-binary "@requests" > /dev/null`
-
 ## Full data scraping, parsing, and upload steps, from the beginning
 
 - `cd scripts/ingest`
